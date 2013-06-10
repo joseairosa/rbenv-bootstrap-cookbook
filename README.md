@@ -15,7 +15,7 @@ Installs/Configures rbenv-bootstrap which will install ruby shims during chef pr
 
 # Usage
 
-Include recipe[rbenv-gemset] in your run_list and configure `node[:rbenv_bootstrap][:install_versions]` with correct
+Include recipe[rbenv-bootstrap] in your run_list and configure `node[:rbenv_bootstrap][:install_versions]` with correct
 list of ruby versions to be installed.
 
 # Authors and Contributors
